@@ -2,8 +2,8 @@
 //  main.m
 //  WebWork
 //
-//  Created by JOHN HAMMOND on 2/12/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by The WeBWorK Project on 2/12/12.
+//  Copyright (c) 2012 The WeBWorK Project. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

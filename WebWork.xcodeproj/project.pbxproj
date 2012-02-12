@@ -24,6 +24,47 @@
 		5214499714E82B6900B0114A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5214496C14E82B6900B0114A /* Foundation.framework */; };
 		5214499F14E82B6900B0114A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5214499D14E82B6900B0114A /* InfoPlist.strings */; };
 		521449A214E82B6900B0114A /* WebWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449A114E82B6900B0114A /* WebWorkTests.m */; };
+		521449EC14E8344200B0114A /* ArrayOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449C514E8344200B0114A /* ArrayOfString.m */; };
+		521449ED14E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449C714E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalProblem.m */; };
+		521449EE14E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449C914E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalSet.m */; };
+		521449EF14E8344200B0114A /* ArrayOfWebworkSOAPClassesKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449CB14E8344200B0114A /* ArrayOfWebworkSOAPClassesKey.m */; };
+		521449F014E8344200B0114A /* ArrayOfWebworkSOAPClassesPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449CD14E8344200B0114A /* ArrayOfWebworkSOAPClassesPassword.m */; };
+		521449F114E8344200B0114A /* ArrayOfWebworkSOAPClassesPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449CF14E8344200B0114A /* ArrayOfWebworkSOAPClassesPermission.m */; };
+		521449F214E8344200B0114A /* ArrayOfWebworkSOAPClassesUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449D114E8344200B0114A /* ArrayOfWebworkSOAPClassesUser.m */; };
+		521449F314E8344200B0114A /* ArrayOfWebworkSOAPClassesUserProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449D314E8344200B0114A /* ArrayOfWebworkSOAPClassesUserProblem.m */; };
+		521449F414E8344200B0114A /* ArrayOfWebworkSOAPClassesUserSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449D514E8344200B0114A /* ArrayOfWebworkSOAPClassesUserSet.m */; };
+		521449F514E8344200B0114A /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449D714E8344200B0114A /* Services.m */; };
+		521449F614E8344200B0114A /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449D914E8344200B0114A /* Soap+Prefix.m */; };
+		521449F714E8344200B0114A /* WebworkSOAPClassesGlobalProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449DB14E8344200B0114A /* WebworkSOAPClassesGlobalProblem.m */; };
+		521449F814E8344200B0114A /* WebworkSOAPClassesGlobalSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449DD14E8344200B0114A /* WebworkSOAPClassesGlobalSet.m */; };
+		521449F914E8344200B0114A /* WebworkSOAPClassesKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449DF14E8344200B0114A /* WebworkSOAPClassesKey.m */; };
+		521449FA14E8344200B0114A /* WebworkSOAPClassesPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449E114E8344200B0114A /* WebworkSOAPClassesPassword.m */; };
+		521449FB14E8344200B0114A /* WebworkSOAPClassesPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449E314E8344200B0114A /* WebworkSOAPClassesPermission.m */; };
+		521449FC14E8344200B0114A /* WebworkSOAPClassesUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449E514E8344200B0114A /* WebworkSOAPClassesUser.m */; };
+		521449FD14E8344200B0114A /* WebworkSOAPClassesUserProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449E714E8344200B0114A /* WebworkSOAPClassesUserProblem.m */; };
+		521449FE14E8344200B0114A /* WebworkSOAPClassesUserSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449E914E8344200B0114A /* WebworkSOAPClassesUserSet.m */; };
+		521449FF14E8344200B0114A /* WebworkSOAPHandlerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 521449EB14E8344200B0114A /* WebworkSOAPHandlerService.m */; };
+		52144A1C14E8345A00B0114A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A0214E8345A00B0114A /* NSData+Base64.m */; };
+		52144A1D14E8345A00B0114A /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A0414E8345A00B0114A /* NSMutableArray+Soap.m */; };
+		52144A1E14E8345A00B0114A /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A0614E8345A00B0114A /* Soap.m */; };
+		52144A1F14E8345A00B0114A /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A0814E8345A00B0114A /* SoapArray.m */; };
+		52144A2014E8345A00B0114A /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A0B14E8345A00B0114A /* SoapFault.m */; };
+		52144A2114E8345A00B0114A /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A0D14E8345A00B0114A /* SoapHandler.m */; };
+		52144A2214E8345A00B0114A /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A0F14E8345A00B0114A /* SoapLiteral.m */; };
+		52144A2314E8345A00B0114A /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A1114E8345A00B0114A /* SoapNil.m */; };
+		52144A2414E8345A00B0114A /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A1314E8345A00B0114A /* SoapObject.m */; };
+		52144A2514E8345A00B0114A /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A1514E8345A00B0114A /* SoapParameter.m */; };
+		52144A2614E8345A00B0114A /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A1714E8345A00B0114A /* SoapReachability.m */; };
+		52144A2714E8345A00B0114A /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A1914E8345A00B0114A /* SoapRequest.m */; };
+		52144A2814E8345A00B0114A /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A1B14E8345A00B0114A /* SoapService.m */; };
+		52144A3714E8346300B0114A /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A2B14E8346300B0114A /* CXMLDocument.m */; };
+		52144A3814E8346300B0114A /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A2D14E8346300B0114A /* CXMLDocument_PrivateExtensions.m */; };
+		52144A3914E8346300B0114A /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A2F14E8346300B0114A /* CXMLElement.m */; };
+		52144A3A14E8346300B0114A /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A3114E8346300B0114A /* CXMLNode.m */; };
+		52144A3B14E8346300B0114A /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A3314E8346300B0114A /* CXMLNode_PrivateExtensions.m */; };
+		52144A3C14E8346300B0114A /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A3514E8346300B0114A /* CXMLNode_XPathExtensions.m */; };
+		52144A3F14E83BF700B0114A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52144A3E14E83BF700B0114A /* SystemConfiguration.framework */; };
+		52144A4B14E87AE900B0114A /* HomeworkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52144A4914E87AE800B0114A /* HomeworkTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,15 +82,15 @@
 		5214496A14E82B6900B0114A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5214496C14E82B6900B0114A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5214496E14E82B6900B0114A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5214497214E82B6900B0114A /* WebWork-Info.plist */ = {isa = PBXFileReference; path = "WebWork-Info.plist"; sourceTree = "<group>"; };
+		5214497214E82B6900B0114A /* WebWork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebWork-Info.plist"; sourceTree = "<group>"; };
 		5214497414E82B6900B0114A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5214497614E82B6900B0114A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5214497814E82B6900B0114A /* WebWork-Prefix.pch */ = {isa = PBXFileReference; path = "WebWork-Prefix.pch"; sourceTree = "<group>"; };
-		5214497914E82B6900B0114A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5214497814E82B6900B0114A /* WebWork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebWork-Prefix.pch"; sourceTree = "<group>"; };
+		5214497914E82B6900B0114A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5214497A14E82B6900B0114A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5214497C14E82B6900B0114A /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		5214497C14E82B6900B0114A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		5214497D14E82B6900B0114A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		5214497F14E82B6900B0114A /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		5214497F14E82B6900B0114A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5214498014E82B6900B0114A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5214498314E82B6900B0114A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
 		5214498614E82B6900B0114A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
@@ -57,10 +98,93 @@
 		5214498C14E82B6900B0114A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
 		5214499314E82B6900B0114A /* WebWorkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebWorkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5214499414E82B6900B0114A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5214499C14E82B6900B0114A /* WebWorkTests-Info.plist */ = {isa = PBXFileReference; path = "WebWorkTests-Info.plist"; sourceTree = "<group>"; };
+		5214499C14E82B6900B0114A /* WebWorkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebWorkTests-Info.plist"; sourceTree = "<group>"; };
 		5214499E14E82B6900B0114A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		521449A014E82B6900B0114A /* WebWorkTests.h */ = {isa = PBXFileReference; path = WebWorkTests.h; sourceTree = "<group>"; };
+		521449A014E82B6900B0114A /* WebWorkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebWorkTests.h; sourceTree = "<group>"; };
 		521449A114E82B6900B0114A /* WebWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebWorkTests.m; sourceTree = "<group>"; };
+		521449C514E8344200B0114A /* ArrayOfString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfString.m; sourceTree = "<group>"; };
+		521449C614E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfWebworkSOAPClassesGlobalProblem.h; sourceTree = "<group>"; };
+		521449C714E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfWebworkSOAPClassesGlobalProblem.m; sourceTree = "<group>"; };
+		521449C814E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfWebworkSOAPClassesGlobalSet.h; sourceTree = "<group>"; };
+		521449C914E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfWebworkSOAPClassesGlobalSet.m; sourceTree = "<group>"; };
+		521449CA14E8344200B0114A /* ArrayOfWebworkSOAPClassesKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfWebworkSOAPClassesKey.h; sourceTree = "<group>"; };
+		521449CB14E8344200B0114A /* ArrayOfWebworkSOAPClassesKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfWebworkSOAPClassesKey.m; sourceTree = "<group>"; };
+		521449CC14E8344200B0114A /* ArrayOfWebworkSOAPClassesPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfWebworkSOAPClassesPassword.h; sourceTree = "<group>"; };
+		521449CD14E8344200B0114A /* ArrayOfWebworkSOAPClassesPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfWebworkSOAPClassesPassword.m; sourceTree = "<group>"; };
+		521449CE14E8344200B0114A /* ArrayOfWebworkSOAPClassesPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfWebworkSOAPClassesPermission.h; sourceTree = "<group>"; };
+		521449CF14E8344200B0114A /* ArrayOfWebworkSOAPClassesPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfWebworkSOAPClassesPermission.m; sourceTree = "<group>"; };
+		521449D014E8344200B0114A /* ArrayOfWebworkSOAPClassesUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfWebworkSOAPClassesUser.h; sourceTree = "<group>"; };
+		521449D114E8344200B0114A /* ArrayOfWebworkSOAPClassesUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfWebworkSOAPClassesUser.m; sourceTree = "<group>"; };
+		521449D214E8344200B0114A /* ArrayOfWebworkSOAPClassesUserProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfWebworkSOAPClassesUserProblem.h; sourceTree = "<group>"; };
+		521449D314E8344200B0114A /* ArrayOfWebworkSOAPClassesUserProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfWebworkSOAPClassesUserProblem.m; sourceTree = "<group>"; };
+		521449D414E8344200B0114A /* ArrayOfWebworkSOAPClassesUserSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfWebworkSOAPClassesUserSet.h; sourceTree = "<group>"; };
+		521449D514E8344200B0114A /* ArrayOfWebworkSOAPClassesUserSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfWebworkSOAPClassesUserSet.m; sourceTree = "<group>"; };
+		521449D614E8344200B0114A /* Services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
+		521449D714E8344200B0114A /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
+		521449D814E8344200B0114A /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		521449D914E8344200B0114A /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
+		521449DA14E8344200B0114A /* WebworkSOAPClassesGlobalProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebworkSOAPClassesGlobalProblem.h; sourceTree = "<group>"; };
+		521449DB14E8344200B0114A /* WebworkSOAPClassesGlobalProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPClassesGlobalProblem.m; sourceTree = "<group>"; };
+		521449DC14E8344200B0114A /* WebworkSOAPClassesGlobalSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebworkSOAPClassesGlobalSet.h; sourceTree = "<group>"; };
+		521449DD14E8344200B0114A /* WebworkSOAPClassesGlobalSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPClassesGlobalSet.m; sourceTree = "<group>"; };
+		521449DE14E8344200B0114A /* WebworkSOAPClassesKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebworkSOAPClassesKey.h; sourceTree = "<group>"; };
+		521449DF14E8344200B0114A /* WebworkSOAPClassesKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPClassesKey.m; sourceTree = "<group>"; };
+		521449E014E8344200B0114A /* WebworkSOAPClassesPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebworkSOAPClassesPassword.h; sourceTree = "<group>"; };
+		521449E114E8344200B0114A /* WebworkSOAPClassesPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPClassesPassword.m; sourceTree = "<group>"; };
+		521449E214E8344200B0114A /* WebworkSOAPClassesPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebworkSOAPClassesPermission.h; sourceTree = "<group>"; };
+		521449E314E8344200B0114A /* WebworkSOAPClassesPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPClassesPermission.m; sourceTree = "<group>"; };
+		521449E414E8344200B0114A /* WebworkSOAPClassesUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebworkSOAPClassesUser.h; sourceTree = "<group>"; };
+		521449E514E8344200B0114A /* WebworkSOAPClassesUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPClassesUser.m; sourceTree = "<group>"; };
+		521449E614E8344200B0114A /* WebworkSOAPClassesUserProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebworkSOAPClassesUserProblem.h; sourceTree = "<group>"; };
+		521449E714E8344200B0114A /* WebworkSOAPClassesUserProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPClassesUserProblem.m; sourceTree = "<group>"; };
+		521449E814E8344200B0114A /* WebworkSOAPClassesUserSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebworkSOAPClassesUserSet.h; sourceTree = "<group>"; };
+		521449E914E8344200B0114A /* WebworkSOAPClassesUserSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPClassesUserSet.m; sourceTree = "<group>"; };
+		521449EA14E8344200B0114A /* WebworkSOAPHandlerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebworkSOAPHandlerService.h; sourceTree = "<group>"; };
+		521449EB14E8344200B0114A /* WebworkSOAPHandlerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPHandlerService.m; sourceTree = "<group>"; };
+		52144A0114E8345A00B0114A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		52144A0214E8345A00B0114A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		52144A0314E8345A00B0114A /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
+		52144A0414E8345A00B0114A /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
+		52144A0514E8345A00B0114A /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
+		52144A0614E8345A00B0114A /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
+		52144A0714E8345A00B0114A /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
+		52144A0814E8345A00B0114A /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
+		52144A0914E8345A00B0114A /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
+		52144A0A14E8345A00B0114A /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
+		52144A0B14E8345A00B0114A /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
+		52144A0C14E8345A00B0114A /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
+		52144A0D14E8345A00B0114A /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
+		52144A0E14E8345A00B0114A /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
+		52144A0F14E8345A00B0114A /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
+		52144A1014E8345A00B0114A /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
+		52144A1114E8345A00B0114A /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
+		52144A1214E8345A00B0114A /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
+		52144A1314E8345A00B0114A /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
+		52144A1414E8345A00B0114A /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
+		52144A1514E8345A00B0114A /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
+		52144A1614E8345A00B0114A /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
+		52144A1714E8345A00B0114A /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
+		52144A1814E8345A00B0114A /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
+		52144A1914E8345A00B0114A /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
+		52144A1A14E8345A00B0114A /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
+		52144A1B14E8345A00B0114A /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
+		52144A2A14E8346300B0114A /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		52144A2B14E8346300B0114A /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		52144A2C14E8346300B0114A /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		52144A2D14E8346300B0114A /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		52144A2E14E8346300B0114A /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		52144A2F14E8346300B0114A /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		52144A3014E8346300B0114A /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		52144A3114E8346300B0114A /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		52144A3214E8346300B0114A /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		52144A3314E8346300B0114A /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		52144A3414E8346300B0114A /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		52144A3514E8346300B0114A /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		52144A3614E8346300B0114A /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		52144A3D14E834CD00B0114A /* ArrayOfString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayOfString.h; path = Soap/ArrayOfString.h; sourceTree = "<group>"; };
+		52144A3E14E83BF700B0114A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52144A4814E87AE700B0114A /* HomeworkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkTableViewController.h; sourceTree = "<group>"; };
+		52144A4914E87AE800B0114A /* HomeworkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52144A3F14E83BF700B0114A /* SystemConfiguration.framework in Frameworks */,
 				5214496B14E82B6900B0114A /* UIKit.framework in Frameworks */,
 				5214496D14E82B6900B0114A /* Foundation.framework in Frameworks */,
 				5214496F14E82B6900B0114A /* CoreGraphics.framework in Frameworks */,
@@ -109,6 +234,7 @@
 		5214496914E82B6900B0114A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52144A3E14E83BF700B0114A /* SystemConfiguration.framework */,
 				5214496A14E82B6900B0114A /* UIKit.framework */,
 				5214496C14E82B6900B0114A /* Foundation.framework */,
 				5214496E14E82B6900B0114A /* CoreGraphics.framework */,
@@ -120,8 +246,11 @@
 		5214497014E82B6900B0114A /* WebWork */ = {
 			isa = PBXGroup;
 			children = (
+				521449AB14E82B8400B0114A /* Web Service */,
 				5214497914E82B6900B0114A /* AppDelegate.h */,
 				5214497A14E82B6900B0114A /* AppDelegate.m */,
+				52144A4814E87AE700B0114A /* HomeworkTableViewController.h */,
+				52144A4914E87AE800B0114A /* HomeworkTableViewController.m */,
 				5214497C14E82B6900B0114A /* MasterViewController.h */,
 				5214497D14E82B6900B0114A /* MasterViewController.m */,
 				5214497F14E82B6900B0114A /* DetailViewController.h */,
@@ -163,6 +292,109 @@
 				5214499D14E82B6900B0114A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		521449AB14E82B8400B0114A /* Web Service */ = {
+			isa = PBXGroup;
+			children = (
+				52144A2914E8346300B0114A /* TouchXML */,
+				52144A0014E8345A00B0114A /* Soap */,
+				52144A3D14E834CD00B0114A /* ArrayOfString.h */,
+				521449C514E8344200B0114A /* ArrayOfString.m */,
+				521449C614E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalProblem.h */,
+				521449C714E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalProblem.m */,
+				521449C814E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalSet.h */,
+				521449C914E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalSet.m */,
+				521449CA14E8344200B0114A /* ArrayOfWebworkSOAPClassesKey.h */,
+				521449CB14E8344200B0114A /* ArrayOfWebworkSOAPClassesKey.m */,
+				521449CC14E8344200B0114A /* ArrayOfWebworkSOAPClassesPassword.h */,
+				521449CD14E8344200B0114A /* ArrayOfWebworkSOAPClassesPassword.m */,
+				521449CE14E8344200B0114A /* ArrayOfWebworkSOAPClassesPermission.h */,
+				521449CF14E8344200B0114A /* ArrayOfWebworkSOAPClassesPermission.m */,
+				521449D014E8344200B0114A /* ArrayOfWebworkSOAPClassesUser.h */,
+				521449D114E8344200B0114A /* ArrayOfWebworkSOAPClassesUser.m */,
+				521449D214E8344200B0114A /* ArrayOfWebworkSOAPClassesUserProblem.h */,
+				521449D314E8344200B0114A /* ArrayOfWebworkSOAPClassesUserProblem.m */,
+				521449D414E8344200B0114A /* ArrayOfWebworkSOAPClassesUserSet.h */,
+				521449D514E8344200B0114A /* ArrayOfWebworkSOAPClassesUserSet.m */,
+				521449D614E8344200B0114A /* Services.h */,
+				521449D714E8344200B0114A /* Services.m */,
+				521449D814E8344200B0114A /* Soap+Prefix.h */,
+				521449D914E8344200B0114A /* Soap+Prefix.m */,
+				521449DA14E8344200B0114A /* WebworkSOAPClassesGlobalProblem.h */,
+				521449DB14E8344200B0114A /* WebworkSOAPClassesGlobalProblem.m */,
+				521449DC14E8344200B0114A /* WebworkSOAPClassesGlobalSet.h */,
+				521449DD14E8344200B0114A /* WebworkSOAPClassesGlobalSet.m */,
+				521449DE14E8344200B0114A /* WebworkSOAPClassesKey.h */,
+				521449DF14E8344200B0114A /* WebworkSOAPClassesKey.m */,
+				521449E014E8344200B0114A /* WebworkSOAPClassesPassword.h */,
+				521449E114E8344200B0114A /* WebworkSOAPClassesPassword.m */,
+				521449E214E8344200B0114A /* WebworkSOAPClassesPermission.h */,
+				521449E314E8344200B0114A /* WebworkSOAPClassesPermission.m */,
+				521449E414E8344200B0114A /* WebworkSOAPClassesUser.h */,
+				521449E514E8344200B0114A /* WebworkSOAPClassesUser.m */,
+				521449E614E8344200B0114A /* WebworkSOAPClassesUserProblem.h */,
+				521449E714E8344200B0114A /* WebworkSOAPClassesUserProblem.m */,
+				521449E814E8344200B0114A /* WebworkSOAPClassesUserSet.h */,
+				521449E914E8344200B0114A /* WebworkSOAPClassesUserSet.m */,
+				521449EA14E8344200B0114A /* WebworkSOAPHandlerService.h */,
+				521449EB14E8344200B0114A /* WebworkSOAPHandlerService.m */,
+			);
+			name = "Web Service";
+			sourceTree = "<group>";
+		};
+		52144A0014E8345A00B0114A /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				52144A0114E8345A00B0114A /* NSData+Base64.h */,
+				52144A0214E8345A00B0114A /* NSData+Base64.m */,
+				52144A0314E8345A00B0114A /* NSMutableArray+Soap.h */,
+				52144A0414E8345A00B0114A /* NSMutableArray+Soap.m */,
+				52144A0514E8345A00B0114A /* Soap.h */,
+				52144A0614E8345A00B0114A /* Soap.m */,
+				52144A0714E8345A00B0114A /* SoapArray.h */,
+				52144A0814E8345A00B0114A /* SoapArray.m */,
+				52144A0914E8345A00B0114A /* SoapDelegate.h */,
+				52144A0A14E8345A00B0114A /* SoapFault.h */,
+				52144A0B14E8345A00B0114A /* SoapFault.m */,
+				52144A0C14E8345A00B0114A /* SoapHandler.h */,
+				52144A0D14E8345A00B0114A /* SoapHandler.m */,
+				52144A0E14E8345A00B0114A /* SoapLiteral.h */,
+				52144A0F14E8345A00B0114A /* SoapLiteral.m */,
+				52144A1014E8345A00B0114A /* SoapNil.h */,
+				52144A1114E8345A00B0114A /* SoapNil.m */,
+				52144A1214E8345A00B0114A /* SoapObject.h */,
+				52144A1314E8345A00B0114A /* SoapObject.m */,
+				52144A1414E8345A00B0114A /* SoapParameter.h */,
+				52144A1514E8345A00B0114A /* SoapParameter.m */,
+				52144A1614E8345A00B0114A /* SoapReachability.h */,
+				52144A1714E8345A00B0114A /* SoapReachability.m */,
+				52144A1814E8345A00B0114A /* SoapRequest.h */,
+				52144A1914E8345A00B0114A /* SoapRequest.m */,
+				52144A1A14E8345A00B0114A /* SoapService.h */,
+				52144A1B14E8345A00B0114A /* SoapService.m */,
+			);
+			path = Soap;
+			sourceTree = "<group>";
+		};
+		52144A2914E8346300B0114A /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				52144A2A14E8346300B0114A /* CXMLDocument.h */,
+				52144A2B14E8346300B0114A /* CXMLDocument.m */,
+				52144A2C14E8346300B0114A /* CXMLDocument_PrivateExtensions.h */,
+				52144A2D14E8346300B0114A /* CXMLDocument_PrivateExtensions.m */,
+				52144A2E14E8346300B0114A /* CXMLElement.h */,
+				52144A2F14E8346300B0114A /* CXMLElement.m */,
+				52144A3014E8346300B0114A /* CXMLNode.h */,
+				52144A3114E8346300B0114A /* CXMLNode.m */,
+				52144A3214E8346300B0114A /* CXMLNode_PrivateExtensions.h */,
+				52144A3314E8346300B0114A /* CXMLNode_PrivateExtensions.m */,
+				52144A3414E8346300B0114A /* CXMLNode_XPathExtensions.h */,
+				52144A3514E8346300B0114A /* CXMLNode_XPathExtensions.m */,
+				52144A3614E8346300B0114A /* TouchXML.h */,
+			);
+			path = TouchXML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +443,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "The WeBWorK Project";
 			};
 			buildConfigurationList = 5214496014E82B6800B0114A /* Build configuration list for PBXProject "WebWork" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -278,6 +511,46 @@
 				5214497B14E82B6900B0114A /* AppDelegate.m in Sources */,
 				5214497E14E82B6900B0114A /* MasterViewController.m in Sources */,
 				5214498114E82B6900B0114A /* DetailViewController.m in Sources */,
+				521449EC14E8344200B0114A /* ArrayOfString.m in Sources */,
+				521449ED14E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalProblem.m in Sources */,
+				521449EE14E8344200B0114A /* ArrayOfWebworkSOAPClassesGlobalSet.m in Sources */,
+				521449EF14E8344200B0114A /* ArrayOfWebworkSOAPClassesKey.m in Sources */,
+				521449F014E8344200B0114A /* ArrayOfWebworkSOAPClassesPassword.m in Sources */,
+				521449F114E8344200B0114A /* ArrayOfWebworkSOAPClassesPermission.m in Sources */,
+				521449F214E8344200B0114A /* ArrayOfWebworkSOAPClassesUser.m in Sources */,
+				521449F314E8344200B0114A /* ArrayOfWebworkSOAPClassesUserProblem.m in Sources */,
+				521449F414E8344200B0114A /* ArrayOfWebworkSOAPClassesUserSet.m in Sources */,
+				521449F514E8344200B0114A /* Services.m in Sources */,
+				521449F614E8344200B0114A /* Soap+Prefix.m in Sources */,
+				521449F714E8344200B0114A /* WebworkSOAPClassesGlobalProblem.m in Sources */,
+				521449F814E8344200B0114A /* WebworkSOAPClassesGlobalSet.m in Sources */,
+				521449F914E8344200B0114A /* WebworkSOAPClassesKey.m in Sources */,
+				521449FA14E8344200B0114A /* WebworkSOAPClassesPassword.m in Sources */,
+				521449FB14E8344200B0114A /* WebworkSOAPClassesPermission.m in Sources */,
+				521449FC14E8344200B0114A /* WebworkSOAPClassesUser.m in Sources */,
+				521449FD14E8344200B0114A /* WebworkSOAPClassesUserProblem.m in Sources */,
+				521449FE14E8344200B0114A /* WebworkSOAPClassesUserSet.m in Sources */,
+				521449FF14E8344200B0114A /* WebworkSOAPHandlerService.m in Sources */,
+				52144A1C14E8345A00B0114A /* NSData+Base64.m in Sources */,
+				52144A1D14E8345A00B0114A /* NSMutableArray+Soap.m in Sources */,
+				52144A1E14E8345A00B0114A /* Soap.m in Sources */,
+				52144A1F14E8345A00B0114A /* SoapArray.m in Sources */,
+				52144A2014E8345A00B0114A /* SoapFault.m in Sources */,
+				52144A2114E8345A00B0114A /* SoapHandler.m in Sources */,
+				52144A2214E8345A00B0114A /* SoapLiteral.m in Sources */,
+				52144A2314E8345A00B0114A /* SoapNil.m in Sources */,
+				52144A2414E8345A00B0114A /* SoapObject.m in Sources */,
+				52144A2514E8345A00B0114A /* SoapParameter.m in Sources */,
+				52144A2614E8345A00B0114A /* SoapReachability.m in Sources */,
+				52144A2714E8345A00B0114A /* SoapRequest.m in Sources */,
+				52144A2814E8345A00B0114A /* SoapService.m in Sources */,
+				52144A3714E8346300B0114A /* CXMLDocument.m in Sources */,
+				52144A3814E8346300B0114A /* CXMLDocument_PrivateExtensions.m in Sources */,
+				52144A3914E8346300B0114A /* CXMLElement.m in Sources */,
+				52144A3A14E8346300B0114A /* CXMLNode.m in Sources */,
+				52144A3B14E8346300B0114A /* CXMLNode_PrivateExtensions.m in Sources */,
+				52144A3C14E8346300B0114A /* CXMLNode_XPathExtensions.m in Sources */,
+				52144A4B14E87AE900B0114A /* HomeworkTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +644,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -390,6 +665,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -401,6 +677,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebWork/WebWork-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "WebWork/WebWork-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -412,6 +689,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebWork/WebWork-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "WebWork/WebWork-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -471,6 +749,7 @@
 				521449A714E82B6900B0114A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		521449A814E82B6900B0114A /* Build configuration list for PBXNativeTarget "WebWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +758,7 @@
 				521449AA14E82B6900B0114A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

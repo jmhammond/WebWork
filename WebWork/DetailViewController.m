@@ -2,8 +2,8 @@
 //  DetailViewController.m
 //  WebWork
 //
-//  Created by JOHN HAMMOND on 2/12/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by John Hammond on 2/12/12.
+//  Copyright (c) 2012 The WeBWorK Project. All rights reserved.
 //
 
 #import "DetailViewController.h"
@@ -84,6 +84,7 @@
 {
     [super viewDidAppear:animated];
 }
+
 
 - (void)viewWillDisappear:(BOOL)animated
 {

@@ -2,17 +2,18 @@
 //  MasterViewController.m
 //  WebWork
 //
-//  Created by JOHN HAMMOND on 2/12/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by John Hammond on 2/12/12.
+//  Copyright (c) 2012 The WeBWorK Project. All rights reserved.
 //
 
 #import "MasterViewController.h"
-
-#import "DetailViewController.h"
+#import "HomeworkTableViewController.h"
+#import "WebworkSOAPHandlerService.h"
 
 @implementation MasterViewController
 
-@synthesize detailViewController = _detailViewController;
+@synthesize homeworkViewController = _homeworkViewController;
+@synthesize classesArray;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,7 +30,8 @@
 							
 - (void)dealloc
 {
-    [_detailViewController release];
+    [_homeworkViewController release];
+    [classesArray release];
     [super dealloc];
 }
 
@@ -48,6 +50,46 @@
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionMiddle];
     }
+    
+    // Create the service
+	WebworkSOAPHandlerService* service = [WebworkSOAPHandlerService serviceWithUsername:@"" andPassword:@""];
+	service.logging = YES;
+	// service.username = @"username";
+	// service.password = @"password";
+	
+    
+    // [service hello:self action:@selector(none)];
+    // [service list_global_sets:self action:@selector(list_coursesHandler:) authenKey:@"123456789123456789" courseName:@"Math_1300_Spring_2012"]; 
+    
+    [service list_courses:self action:@selector(list_coursesHandler:) authenKey:@"123456789123456789"];
+    
+}
+
+
+- (void) list_coursesHandler: (id) value {
+    
+	// Handle errors
+	if([value isKindOfClass:[NSError class]]) {
+		NSLog(@"%@", value);
+		return;
+	}
+    
+	// Handle faults
+	if([value isKindOfClass:[SoapFault class]]) {
+		NSLog(@"%@", value);
+		return;
+	}				
+    
+    
+	// Do something with the ArrayOfString* result
+ //   SoapArray* result = (SoapArray*)value;
+    classesArray = [[(SoapArray*)value items] copy];
+    [self.tableView reloadData];
+    
+//    for (NSString* object in [result items]) {
+//        NSLog(object);
+//    }
+	//NSLog(@"list_courses returned the value: %@", [result description]);
 }
 
 - (void)viewDidUnload
@@ -95,7 +137,10 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    if (classesArray) 
+        return [classesArray count];
+    else 
+        return 1;
 }
 
 // Customize the appearance of table view cells.
@@ -110,10 +155,16 @@
             cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         }
     }
-
+    
     // Configure the cell.
-    cell.textLabel.text = NSLocalizedString(@"Detail", @"Detail");
-    return cell;
+    
+    if (classesArray) {
+        cell.textLabel.text = [classesArray objectAtIndex:[indexPath row]];
+    } else {
+        cell.textLabel.text = NSLocalizedString(@"Loading Class List...", @"Loading Class List...");
+    }
+    
+   return cell;
 }
 
 /*
@@ -157,10 +208,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-	    if (!self.detailViewController) {
-	        self.detailViewController = [[[DetailViewController alloc] initWithNibName:@"DetailViewController_iPhone" bundle:nil] autorelease];
+	    if (!self.homeworkViewController) {
+	        self.homeworkViewController = [[[HomeworkTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
 	    }
-        [self.navigationController pushViewController:self.detailViewController animated:YES];
+        [self.homeworkViewController setCourse_name:[classesArray objectAtIndex:[indexPath row]]];
+        [self.navigationController pushViewController:self.homeworkViewController animated:YES];
     }
 }
 
