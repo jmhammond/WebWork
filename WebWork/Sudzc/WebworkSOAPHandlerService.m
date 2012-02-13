@@ -746,7 +746,7 @@
 		[_params addObject: [[[SoapParameter alloc] initWithValue: courseName forName: @"courseName"] autorelease]];
 		[_params addObject: [[[SoapParameter alloc] initWithValue: setID forName: @"setID"] autorelease]];
 		NSString* _envelope = [Soap createEnvelope: @"list_global_problems" forNamespace: self.namespace withParameters: _params withHeaders: self.headers];
-		SoapRequest* _request = [SoapRequest create: _target action: _action service: self soapAction: @"" postData: _envelope deserializeTo: [[ArrayOfString alloc] autorelease]];
+		SoapRequest* _request = [SoapRequest create: _target action: _action service: self soapAction: @"" postData: _envelope deserializeTo: [[SoapArray alloc] autorelease]];
 		[_request send];
 		return _request;
 	}

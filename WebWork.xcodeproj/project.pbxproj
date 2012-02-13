@@ -67,6 +67,7 @@
 		527B1A8614E89D51000B73CA /* WebworkSOAPHandlerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B1A7214E89D51000B73CA /* WebworkSOAPHandlerService.m */; };
 		527B1AA514E89ED0000B73CA /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B1A9914E89ED0000B73CA /* WebViewJavascriptBridge.m */; };
 		527B1AAF14E89ED9000B73CA /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B1AAC14E89ED9000B73CA /* JSONKit.m */; };
+		527B1AB514E953BA000B73CA /* ProblemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B1AB414E953BA000B73CA /* ProblemTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +212,8 @@
 		527B1AAB14E89ED9000B73CA /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		527B1AAC14E89ED9000B73CA /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		527B1AAD14E89ED9000B73CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		527B1AB314E953BA000B73CA /* ProblemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemTableViewController.h; sourceTree = "<group>"; };
+		527B1AB414E953BA000B73CA /* ProblemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +282,8 @@
 				5214497A14E82B6900B0114A /* AppDelegate.m */,
 				52144A4814E87AE700B0114A /* HomeworkTableViewController.h */,
 				52144A4914E87AE800B0114A /* HomeworkTableViewController.m */,
+				527B1AB314E953BA000B73CA /* ProblemTableViewController.h */,
+				527B1AB414E953BA000B73CA /* ProblemTableViewController.m */,
 				5214497C14E82B6900B0114A /* MasterViewController.h */,
 				5214497D14E82B6900B0114A /* MasterViewController.m */,
 				5214497F14E82B6900B0114A /* DetailViewController.h */,
@@ -652,6 +657,7 @@
 				527B1A8614E89D51000B73CA /* WebworkSOAPHandlerService.m in Sources */,
 				527B1AA514E89ED0000B73CA /* WebViewJavascriptBridge.m in Sources */,
 				527B1AAF14E89ED9000B73CA /* JSONKit.m in Sources */,
+				527B1AB514E953BA000B73CA /* ProblemTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

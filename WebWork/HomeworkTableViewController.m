@@ -6,22 +6,25 @@
 //  Copyright (c) 2012 The WeBWorK Project. All rights reserved.
 //
 
-#import "DetailViewController.h"
-
 #import "HomeworkTableViewController.h"
 #import "WebworkSOAPHandlerService.h"
+#import "ProblemTableViewController.h"
 
 @implementation HomeworkTableViewController
 
-@synthesize detailViewController = _detailViewController;
+@synthesize problemTableViewController = _problemTableViewController;
 @synthesize course_name = _course_name;
-@synthesize homeworkArray;
+@synthesize homework_list;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.title = (self.course_name) ? self.course_name : @"Homework";
+        if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+            self.clearsSelectionOnViewWillAppear = NO;
+            self.contentSizeForViewInPopover = CGSizeMake(320.0, 600.0);
+        }
     }
     return self;
 }
@@ -58,6 +61,14 @@
 
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.title = (self.course_name) ? self.course_name : @"Homework";
+    
+    
+    [super viewWillAppear:animated];
+}
+
 - (void) list_homeworkHandler: (id) value {
     
 	// Handle errors
@@ -75,7 +86,7 @@
     
 	// Do something with the ArrayOfString* result
     //   SoapArray* result = (SoapArray*)value;
-    homeworkArray = [[(SoapArray*)value items] copy];
+    homework_list = [[(SoapArray*)value items] copy];
     [self.tableView reloadData];
     
     //    for (NSString* object in [result items]) {
@@ -105,8 +116,8 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (homeworkArray) 
-        return [homeworkArray count];
+    if (homework_list) 
+        return [homework_list count];
     else 
         return 1;
 }
@@ -126,8 +137,8 @@
     
     // Configure the cell.
     
-    if (homeworkArray) {
-        cell.textLabel.text = [homeworkArray objectAtIndex:[indexPath row]];
+    if (homework_list) {
+        cell.textLabel.text = [homework_list objectAtIndex:[indexPath row]];
     } else {
         cell.textLabel.text = NSLocalizedString(@"Loading Homework List...", @"Loading Homework List...");
     }
@@ -176,10 +187,12 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-	    if (!self.detailViewController) {
-	        self.detailViewController = [[[DetailViewController alloc] initWithNibName:@"DetailViewController_iPhone" bundle:nil] autorelease];
+	    if (!self.problemTableViewController) {
+	        self.problemTableViewController = [[[ProblemTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
 	    }
-        [self.navigationController pushViewController:self.detailViewController animated:YES];
+        [self.problemTableViewController setHomework_name:[homework_list objectAtIndex:[indexPath row]]];
+        [self.problemTableViewController setCourse_name:self.course_name];
+        [self.navigationController pushViewController:self.problemTableViewController animated:YES];
     }
 }
 

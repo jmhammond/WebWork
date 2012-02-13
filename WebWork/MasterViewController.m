@@ -13,13 +13,13 @@
 @implementation MasterViewController
 
 @synthesize homeworkViewController = _homeworkViewController;
-@synthesize classesArray;
+@synthesize courses_list;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Master", @"Master");
+        self.title = NSLocalizedString(@"WebWork", @"WebWork");
         if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
             self.clearsSelectionOnViewWillAppear = NO;
             self.contentSizeForViewInPopover = CGSizeMake(320.0, 600.0);
@@ -31,7 +31,7 @@
 - (void)dealloc
 {
     [_homeworkViewController release];
-    [classesArray release];
+    [courses_list release];
     [super dealloc];
 }
 
@@ -83,7 +83,7 @@
     
 	// Do something with the ArrayOfString* result
  //   SoapArray* result = (SoapArray*)value;
-    classesArray = [[(SoapArray*)value items] copy];
+    courses_list = [[(SoapArray*)value items] copy];
     [self.tableView reloadData];
     
 //    for (NSString* object in [result items]) {
@@ -137,8 +137,8 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (classesArray) 
-        return [classesArray count];
+    if (courses_list) 
+        return [courses_list count];
     else 
         return 1;
 }
@@ -158,8 +158,8 @@
     
     // Configure the cell.
     
-    if (classesArray) {
-        cell.textLabel.text = [classesArray objectAtIndex:[indexPath row]];
+    if (courses_list) {
+        cell.textLabel.text = [courses_list objectAtIndex:[indexPath row]];
     } else {
         cell.textLabel.text = NSLocalizedString(@"Loading Class List...", @"Loading Class List...");
     }
@@ -211,7 +211,7 @@
 	    if (!self.homeworkViewController) {
 	        self.homeworkViewController = [[[HomeworkTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
 	    }
-        [self.homeworkViewController setCourse_name:[classesArray objectAtIndex:[indexPath row]]];
+        [self.homeworkViewController setCourse_name:[courses_list objectAtIndex:[indexPath row]]];
         [self.navigationController pushViewController:self.homeworkViewController animated:YES];
     }
 }

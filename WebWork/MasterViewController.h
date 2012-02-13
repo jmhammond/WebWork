@@ -13,6 +13,6 @@
 @interface MasterViewController : UITableViewController
 
 @property (strong, nonatomic) HomeworkTableViewController* homeworkViewController;
-@property (retain, nonatomic) NSArray* classesArray;
+@property (retain, nonatomic) NSArray* courses_list;
 
 @end

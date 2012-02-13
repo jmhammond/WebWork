@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class DetailViewController;
+@class ProblemTableViewController;
 
 @interface HomeworkTableViewController : UITableViewController
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
-@property (retain, nonatomic) NSArray* homeworkArray;
+@property (strong, nonatomic) ProblemTableViewController* problemTableViewController;
+@property (retain, nonatomic) NSArray* homework_list;
 @property (strong, nonatomic) NSString* course_name;
 
 @end
