@@ -65,6 +65,8 @@
 		527B1A8414E89D51000B73CA /* WebworkSOAPClassesUserProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B1A6E14E89D51000B73CA /* WebworkSOAPClassesUserProblem.m */; };
 		527B1A8514E89D51000B73CA /* WebworkSOAPClassesUserSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B1A7014E89D51000B73CA /* WebworkSOAPClassesUserSet.m */; };
 		527B1A8614E89D51000B73CA /* WebworkSOAPHandlerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B1A7214E89D51000B73CA /* WebworkSOAPHandlerService.m */; };
+		527B1AA514E89ED0000B73CA /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B1A9914E89ED0000B73CA /* WebViewJavascriptBridge.m */; };
+		527B1AAF14E89ED9000B73CA /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B1AAC14E89ED9000B73CA /* JSONKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5214496514E82B6900B0114A;
 			remoteInfo = WebWork;
+		};
+		527B1AA714E89ED0000B73CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527B1A9A14E89ED0000B73CA /* WebViewJavascriptBridge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C1E9E9C14099B4600C5C30E;
+			remoteInfo = WebViewJavascriptBridge;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -185,6 +194,25 @@
 		527B1A7014E89D51000B73CA /* WebworkSOAPClassesUserSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPClassesUserSet.m; sourceTree = "<group>"; };
 		527B1A7114E89D51000B73CA /* WebworkSOAPHandlerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebworkSOAPHandlerService.h; sourceTree = "<group>"; };
 		527B1A7214E89D51000B73CA /* WebworkSOAPHandlerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebworkSOAPHandlerService.m; sourceTree = "<group>"; };
+		527B1A8C14E89ED0000B73CA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		527B1A8D14E89ED0000B73CA /* Changelog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog; sourceTree = "<group>"; };
+		527B1A8E14E89ED0000B73CA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		527B1A8F14E89ED0000B73CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		527B1A9214E89ED0000B73CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		527B1A9314E89ED0000B73CA /* ExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
+		527B1A9414E89ED0000B73CA /* ExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleAppDelegate.m; sourceTree = "<group>"; };
+		527B1A9514E89ED0000B73CA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		527B1A9614E89ED0000B73CA /* WebViewJavascriptBridge-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WebViewJavascriptBridge-Info.plist"; sourceTree = "<group>"; };
+		527B1A9714E89ED0000B73CA /* WebViewJavascriptBridge-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-Prefix.pch"; sourceTree = "<group>"; };
+		527B1A9814E89ED0000B73CA /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		527B1A9914E89ED0000B73CA /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		527B1A9A14E89ED0000B73CA /* WebViewJavascriptBridge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WebViewJavascriptBridge.xcodeproj; sourceTree = "<group>"; };
+		527B1AAA14E89ED9000B73CA /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		527B1AAB14E89ED9000B73CA /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		527B1AAC14E89ED9000B73CA /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		527B1AAD14E89ED9000B73CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		527B1AB114E89F79000B73CA /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		527B1AB214E89FB1000B73CA /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +274,8 @@
 		5214497014E82B6900B0114A /* WebWork */ = {
 			isa = PBXGroup;
 			children = (
+				527B1AA914E89ED9000B73CA /* jsonkit */,
+				527B1A8B14E89ED0000B73CA /* webviewjsbridge */,
 				521449AB14E82B8400B0114A /* Web Service */,
 				5214497914E82B6900B0114A /* AppDelegate.h */,
 				5214497A14E82B6900B0114A /* AppDelegate.m */,
@@ -271,6 +301,8 @@
 				5214497314E82B6900B0114A /* InfoPlist.strings */,
 				5214497614E82B6900B0114A /* main.m */,
 				5214497814E82B6900B0114A /* WebWork-Prefix.pch */,
+				527B1AB114E89F79000B73CA /* README */,
+				527B1AB214E89FB1000B73CA /* LICENSE */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -405,6 +437,53 @@
 			path = Sudzc;
 			sourceTree = "<group>";
 		};
+		527B1A8B14E89ED0000B73CA /* webviewjsbridge */ = {
+			isa = PBXGroup;
+			children = (
+				527B1A8C14E89ED0000B73CA /* .gitignore */,
+				527B1A8D14E89ED0000B73CA /* Changelog */,
+				527B1A8E14E89ED0000B73CA /* LICENSE */,
+				527B1A8F14E89ED0000B73CA /* README.md */,
+				527B1A9014E89ED0000B73CA /* WebViewJavascriptBridge */,
+				527B1A9A14E89ED0000B73CA /* WebViewJavascriptBridge.xcodeproj */,
+			);
+			path = webviewjsbridge;
+			sourceTree = "<group>";
+		};
+		527B1A9014E89ED0000B73CA /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				527B1A9114E89ED0000B73CA /* InfoPlist.strings */,
+				527B1A9314E89ED0000B73CA /* ExampleAppDelegate.h */,
+				527B1A9414E89ED0000B73CA /* ExampleAppDelegate.m */,
+				527B1A9514E89ED0000B73CA /* main.m */,
+				527B1A9614E89ED0000B73CA /* WebViewJavascriptBridge-Info.plist */,
+				527B1A9714E89ED0000B73CA /* WebViewJavascriptBridge-Prefix.pch */,
+				527B1A9814E89ED0000B73CA /* WebViewJavascriptBridge.h */,
+				527B1A9914E89ED0000B73CA /* WebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		527B1A9B14E89ED0000B73CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527B1AA814E89ED0000B73CA /* WebViewJavascriptBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527B1AA914E89ED9000B73CA /* jsonkit */ = {
+			isa = PBXGroup;
+			children = (
+				527B1AAA14E89ED9000B73CA /* CHANGELOG.md */,
+				527B1AAB14E89ED9000B73CA /* JSONKit.h */,
+				527B1AAC14E89ED9000B73CA /* JSONKit.m */,
+				527B1AAD14E89ED9000B73CA /* README.md */,
+			);
+			path = jsonkit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -463,6 +542,12 @@
 			mainGroup = 5214495B14E82B6800B0114A;
 			productRefGroup = 5214496714E82B6900B0114A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 527B1A9B14E89ED0000B73CA /* Products */;
+					ProjectRef = 527B1A9A14E89ED0000B73CA /* WebViewJavascriptBridge.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5214496514E82B6900B0114A /* WebWork */,
@@ -470,6 +555,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		527B1AA814E89ED0000B73CA /* WebViewJavascriptBridge.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = WebViewJavascriptBridge.app;
+			remoteRef = 527B1AA714E89ED0000B73CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5214496414E82B6900B0114A /* Resources */ = {
@@ -559,6 +654,8 @@
 				527B1A8414E89D51000B73CA /* WebworkSOAPClassesUserProblem.m in Sources */,
 				527B1A8514E89D51000B73CA /* WebworkSOAPClassesUserSet.m in Sources */,
 				527B1A8614E89D51000B73CA /* WebworkSOAPHandlerService.m in Sources */,
+				527B1AA514E89ED0000B73CA /* WebViewJavascriptBridge.m in Sources */,
+				527B1AAF14E89ED9000B73CA /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +722,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				5214499E14E82B6900B0114A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		527B1A9114E89ED0000B73CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527B1A9214E89ED0000B73CA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

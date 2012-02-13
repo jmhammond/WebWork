@@ -1,0 +1,6 @@
+[submodule "WebWork/jsonkit"]
+	path = WebWork/jsonkit
+	url = git://github.com/johnezang/JSONKit.git
+[submodule "WebWork/webviewjsbridge"]
+	path = WebWork/webviewjsbridge
+	url = git://github.com/marcuswestin/WebViewJavascriptBridge.git
