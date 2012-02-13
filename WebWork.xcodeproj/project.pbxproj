@@ -211,8 +211,6 @@
 		527B1AAB14E89ED9000B73CA /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		527B1AAC14E89ED9000B73CA /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		527B1AAD14E89ED9000B73CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		527B1AB114E89F79000B73CA /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		527B1AB214E89FB1000B73CA /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,8 +299,6 @@
 				5214497314E82B6900B0114A /* InfoPlist.strings */,
 				5214497614E82B6900B0114A /* main.m */,
 				5214497814E82B6900B0114A /* WebWork-Prefix.pch */,
-				527B1AB114E89F79000B73CA /* README */,
-				527B1AB214E89FB1000B73CA /* LICENSE */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
